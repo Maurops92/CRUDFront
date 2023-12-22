@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+.restaurant-title {
+  font-size: 24px;
+  margin: 0 0 0 20px ;
+}
+.login-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 20px 0 0;
+}
+.flex {
+  display: flex;
+}
+.content {
+  flex-grow: 1;
+  padding: 20px; 
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 75vw;
+}
+
+.sidebar {
+  width: 14rem;
+  height: calc(100vh - 72px);
+  border-right: 1px solid #c4ccde;
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  
+  ul {
+    list-style: none;
+    padding: 1rem 2rem;
+
+    li {
+      margin-bottom: 1rem;
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        
+        &:hover {
+          color: #4caf50;
+        }
+      }
+    }
+  }
+
+  #noResultsMessage{
+    font-size: 3rem;
+    color: red;
+}
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    border-right: none;
+
+    ul {
+      padding: 1rem;
+    }
+  }
+}

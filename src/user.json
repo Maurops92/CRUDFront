@@ -1,0 +1,19 @@
+{
+  "usuarios": [
+    {
+      "usuario": "ceo_usuario",
+      "contrasena": "contrasena_ceo",
+      "rol": "CEO"
+    },
+    {
+      "usuario": "gerente_usuario",
+      "contrasena": "contrasena_gerente",
+      "rol": "Gerente"
+    },
+    {
+      "usuario": "mozo_usuario",
+      "contrasena": "contrasena_mozo",
+      "rol": "Mozo"
+    }
+  ]
+}
